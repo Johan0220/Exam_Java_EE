@@ -1,13 +1,13 @@
 package com.fpt.edu.springboot_student.controllers;
 
 
-import com.example.exam_EAD_sem4.dto.RequestStudentScore;
-import com.example.exam_EAD_sem4.entity.Student_score_t;
-import com.example.exam_EAD_sem4.entity.Student_t;
-import com.example.exam_EAD_sem4.entity.Subject_t;
-import com.example.exam_EAD_sem4.repository.IStudentRepo;
-import com.example.exam_EAD_sem4.repository.IStudent_scoreRepo;
-import com.example.exam_EAD_sem4.repository.ISubjectRepo;
+import com.fpt.edu.springboot_student.dto.RequestStudentScore;
+import com.fpt.edu.springboot_student.models.Student_score_t;
+import com.fpt.edu.springboot_student.models.Student_t;
+import com.fpt.edu.springboot_student.models.Subject_t;
+import com.fpt.edu.springboot_student.repositories.IStudentRepo;
+import com.fpt.edu.springboot_student.repositories.IStudent_scoreRepo;
+import com.fpt.edu.springboot_student.repositories.ISubjectRepo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
